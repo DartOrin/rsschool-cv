@@ -1,1 +1,1 @@
-# rsschool-cv
+https://DartOrin.github.io/rsschool-cv/cv
