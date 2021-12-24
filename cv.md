@@ -25,7 +25,9 @@ function oddOrEven(array) {
 ```
 ___
 ## Experience
-
+* [MovieBaseSearch](https://github.com/DartOrin/MovieBaseSearch)
+  * the project is based on TMDB(The Movie Data Base)
+  * Used: __HTML5, CSS3, React.js, React-slick, React router DOM, React Hooks, Styled Components,axios__
 ___
 ## Education
 * **Course:** [ALE "Kyrgyz Association of Software Developers and Services" within the framework of the project "50,000 programmers. One family - one programmer"](https://okuu.programmer.kg)
