@@ -11,22 +11,113 @@
     <button class="header__button"></button>
     <nav class="nav">
       <ul class="nav__list">
-        <li ><a class="nav__link" href="#">About Me</a></li>
-        <li ><a class="nav__link" href="#">Skills</a></li>
-        <li ><a class="nav__link" href="#">Strengths</a></li>
-        <li ><a class="nav__link" href="#">Code</a></li>
-        <li ><a class="nav__link" href="#">Education</a></li>
+        <li ><a class="nav__link" href="#about">About Me</a></li>
+        <li ><a class="nav__link" href="#skills">Skills</a></li>
+        <li ><a class="nav__link" href="#strengths">Strengths</a></li>
+        <li ><a class="nav__link" href="#code">Code</a></li>
+        <li ><a class="nav__link" href="#contact">Contact</a></li>
+        <li ><a class="nav__link" href="#education">Education</a></li>
+        <li ><a class="nav__link" href="#experience">Experience</a></li>
       </ul>
     </nav>
   </header>
   <main class="main container">
-    <aside class="aside">
-      <img class="__photo" src="./1.jpg" alt="photo" width="200">
+    <aside class="left_side">
+      <figure>
+        <img class="photo" src="./1.jpg" alt="photo" width="380">
+      </figure>
+      <section class="contact" id="contact">
+        <h2 class="section_title">Contact</h2>
+        <ul class="contact__list">
+          <li class="contact__item">
+            Phone:<br>
+            <a href="tel:+996551022603">+996551022603</a>
+          </li>
+          <li class="contact__item">
+            Email:<br>
+            <a href="mailto:d.palkin94@gmail.com">d.palkin94@gmail.com</a>
+          </li>
+          <li class="contact__item">
+            Location: <br>
+            <span>Bishkek, Kyrgyzstan</span>
+          </li>
+        </ul>
+      </section>
+      <section class="education" id="education">
+        <h2 class="section_title">Education</h2>
+        <ul class="education__list">
+          <li class="education__item">
+            <p>2021<br>KSSDA(Frontend Developer)</p>
+          </li>
+          <li class="education__item">
+            <p>2022<br>RS School(JS Stage 0)</p>
+          </li>
+        </ul>
+      </section>
     </aside>
-    <section class="section">
-      <h1 class="__name">Daniil Palkin</h1>
-      <h2 class="__profession">Frontend developer</h2>
-    </section>
+    <div class="right_side">
+      <section class="page_title">
+        <h1 class="title">Daniil<br/>Palkin</h1>
+        <p class="profession">Frontend developer</p>
+      </section>
+      <section class="about" id="about">
+        <h2 class="section__title">
+          About Me
+        </h2>
+        <p>
+          I believe that to be the best is to be effective. To be effective means constantly learning, learning from the best, and using effective tools. My main advantage is dedication and versatility. I’m interested in everything. I rarely ask questions, because I am used to finding the answers to everything myself.
+        </p>
+      </section>
+      <section class="skills" id="skills">
+        <h2 class="section__title">
+          Skills
+        </h2>
+        <ul class="skills__list">
+          <li class="skills__item">HTML5</li>
+          <li class="skills__item">CSS3,SASS,SCSS</li>
+          <li class="skills__item">JavaScript(ES6+)</li>
+          <li class="skills__item">GIT</li>
+          <li class="skills__item">React/Redux</li>
+          <li class="skills__item">English A2+</li>
+        </ul>
+      </section>
+      <section class="strengths" id="strengths">
+        <h2 class="section__title">Key strengths</h2>
+        <ul class="strengths__list">
+          <li class="strengths__item">Hardworking</li>
+          <li class="strengths__item">Responsible</li>
+          <li class="strengths__item">Sociable</li>
+          <li class="strengths__item">Quick learner</li>
+          <li class="strengths__item">Goal-oriented</li>
+          <li class="strengths__item">Conscientious</li>
+        </ul>
+      </section>
+      <section class="code" id="code">
+        <h2 class="section__title">Code Example</h2>
+        <details>
+          <summary>Example</summary>
+          <pre>
+            <code>
+              function oddOrEven(array) {
+                let result = array.reduce((a, b)=> (a+b), 0)%2 ? 'odd':'even';
+                return result;
+              }
+            </code>
+          </pre>
+          
+        </details>
+      </section>
+      <section class="experience" id="experience">
+        <h2 class="section__title">Experience</h2>
+        <details>
+          <summary><a href="">MovieBaseSearch</a></summary>
+          <ul>
+            <li>the project is based on TMDB(The Movie Data Base)</li>
+            <li>Used: HTML5, CSS3, React.js, React-slick, React router DOM, React Hooks, Styled Components,axios</li>
+          </ul>
+        </details>
+      </section>
+    </div>
   </main>
 </body>
 </html>

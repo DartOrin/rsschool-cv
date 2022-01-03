@@ -32,7 +32,62 @@
 }
 
 .main {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 380px 1fr;
+}
+.left_side{
+  background-color: #2c323d;
+  width: 100%;
+  color: white;
+}
+.left_side a{
+  color: white;
+}
+.right_side{
+  width: 100%;
+}
+.page_title{
+  margin: 125px 80px 125px 60px;
+}
+.title{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.profession{
+  font-size: 20px;
+  margin: 20px 0;
+}
+.contact{
+  padding: 44px 0 54px 0;
+  background-color: #343945;
+}
+.contact__list {
+  margin: 0 60px;
+  list-style: none;
+  padding: 0;
+}
+.contact__item {
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.section_title {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 36px;
+  padding-left: 20px;
+}
+.education {
+  padding: 54px 0px 54px 0px;
+}
+.education__list {
+  margin: 0;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 0;
+  list-style: none;
+}
+.education__item {
+  margin-bottom: 25px;
 }
